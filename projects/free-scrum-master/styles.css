@@ -114,3 +114,42 @@ button {
     color: gray;
     background-color: lightgrey;
 }
+
+@media (max-width: 842px) {
+    .kleur {
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .dropdown {
+        display: inline-block;
+    }
+
+    .dropdown p {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .scrummasterwrap {
+        min-width: 80%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div img {
+    width: 180px;
+    margin: 15px;
+    }
+
+    .speechbubble {
+        width: 250px;
+    }
+
+    button {
+        margin-top: 30px;
+    }
+}
