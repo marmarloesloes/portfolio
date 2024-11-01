@@ -78,7 +78,7 @@ h1 {
   margin-top: 15px;
 }
 
-@media (max-width: 1014px) {
+@media (max-width: 767px) {
   .checker {
     width: 300px;
   }
@@ -87,7 +87,7 @@ h1 {
   }
   .question {
     width: 200px;
-  };
+  }
   #text-input {
     width: 200px;
   }

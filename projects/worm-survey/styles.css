@@ -54,33 +54,32 @@ p {
 }
 
 .vakjes {
-  margin-left: 2.5rem;
+  margin-left: 3rem;
 }
 
-input[type="text"] {
+input[type="text"], input[type="email"] {
   width: 100%;
   margin: 10px 0 0 0;
-}
-
-input[type="email"] {
-  width: 100%;
-  margin: 10px 0 0 0;
+  padding: 4px;
 }
 
 input[type="number"] {
-  width: 40%;
-  margin: 10px 0 0 0;
+  width: 20%;
+  margin: 10px 0 0 10px;
+  padding: 4px;
 }
 
 textarea {
   width: 100%;
   margin-top: 10px;
+  padding: 4px;
 }
 
 select {
   width: 40%;
   margin: 10px 0 0 0;
   display: block;
+  padding: 4px;
 }
 
 hr {
@@ -109,7 +108,17 @@ textarea::placeholder, #dropdown {
     font-size: 1rem;
 }
 
-@media (max-width: 842px) {
+@media (max-width: 767px) {
+  h1 {
+    font-size: 1.7rem;
+    padding-top: 1rem;
+  }
+
+  #description {
+    font-size: 1rem;
+    margin-top: 0px;
+  }
+
 fieldset {
   max-width: 100%;
   margin-left: 0;
@@ -117,7 +126,45 @@ fieldset {
 }
 
 form {
-  width: 100%; /* Ensure form takes full width on mobile */
-  padding: 0 10px; /* Add padding to avoid edge sticking */
+  width: 100%;
+  padding: 0 10px;
 }
-} 
+
+.vraag, .rondjes {
+  font-size: 1.3rem;
+}
+
+.vakjes + label {
+  font-size: 1.3rem;
+}
+
+.vraag {
+  padding: 0px;
+}
+
+.rondjes {
+  padding-left: 15px;
+}
+
+.vakjes {
+  margin-left: 15px;
+}
+
+input, input::placeholder, textarea::placeholder, #dropdown {
+  font-size: 1rem;
+}
+
+input[type="number"] {
+  width: 100%;
+  margin-left: 0px;
+}
+
+select {
+  width: 100%;
+}
+
+button {
+  font-size: 1.3rem;
+}
+
+}
