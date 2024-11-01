@@ -221,6 +221,10 @@ h1 {
     ul {
         padding-left: 2rem;
         margin-right: 2rem;
+        font-size: 1.2rem;
+    }
+    .nav-img img {
+        height: 40px;
     }
 }
 
