@@ -1,0 +1,106 @@
+body {
+  width: 100%;
+  margin: 0;
+  background-image: url(https://www.wigglywigglers.co.uk/cdn/shop/files/Screenshot2023-10-15at08.02.46_grande.jpg?v=1697353634);
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: brown;
+  font-family: Arial;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+#description {
+  color: rgb(213, 136, 136);
+}
+
+fieldset {
+  border: 0;
+  padding: 2rem 0;
+  background-color: pink;
+  opacity: 0.8;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.vraag {
+  font-weight: bold;
+}
+
+h1  {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.vraag {
+  display: block;
+  margin: 1rem 0;
+}
+
+.rondjes {
+  display:block;
+  margin: 0.5rem 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+
+input[type="email"] {
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+
+input[type="number"] {
+  width: 40%;
+  margin: 10px 0 0 0;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 10px;
+}
+
+select {
+  width: 40%;
+  margin: 10px 0 0 0;
+  display: block;
+}
+
+hr {
+  border-width: 0;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+button {
+  display: block;
+  width: 60%;
+  margin: 2em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  color: brown;
+  background-color: white;
+  border-color: brown;
+  min-width: 300px;
+}
+
+input::placeholder, 
+textarea::placeholder, #dropdown {
+    font-family: "Arial";
+    color: rgb(95, 95, 95);
+    font-size: 1rem;
+}

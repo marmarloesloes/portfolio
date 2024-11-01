@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: veranda, arial;
+  font-size: 1rem;
+}
+
+body {
+  background:url("https://s3.animalia.bio/animals/photos/full/original/monopterusalbus.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1000px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+
+}
+
+.checker {
+  display: flex;
+  width: 450px;
+  height: 350px;
+  background-color: rgb(240, 239, 239,0.8);
+  border-radius: 10px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: darkslateblue;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.vraag {
+  margin-bottom: 15px;
+}
+
+.question {
+  display: flex;
+  width: 300px;
+  height: 150px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px;
+  flex-direction: column;
+  flex-wrap: column wrap;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid darkslateblue;
+  margin-bottom: 15px;
+}
+
+#text-input {
+  border: none;
+  border-bottom: 2px solid lightblue;
+  width: 250px;
+  text-align: center;
+}
+
+#check-btn {
+  background-color: lightblue;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+#result {
+  margin-top: 15px;
+}

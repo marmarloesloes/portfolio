@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css" />
+<title>Best Survey Ever</title>
+</head>
+  
+<body>
+    <h1 id="title">🐍 Best Worm Survey Ever 🐍</h1>
+    <p id="description">Just some weird but super good wormy questions.</p>
+
+<fieldset>
+<form id="survey-form">
+
+  <label class="vraag" id="name-label">So, what's your name?
+    <input id="name" type="text" placeholder="Wormlovergirl" required>
+    </input>
+  </label>
+<hr>
+  <label class="vraag"  id="email-label"> Can you type your e-mail address?
+    <input id="email" type="email" placeholder="wormsarethebest@idigworms.com" required>
+    </input>
+  </label>
+<hr>
+  <label class="vraag"  id="number-label"> How many worms have you owned?
+     <input id="number" type="number" placeholder="pick a number" min="4" max="8" required></input>
+  </label>
+<hr>
+  <label class="vraag"  id="dropdown-label">Who was your favourite worm?
+  <select id="dropdown">
+      <option value="1">Tell us their name</option>
+      <option value="2">Margareth</option>
+      <option value="3">Gregory</option>
+      <option value="4">Piñata</option>
+      <option value="5">Bob</option>
+      <option value="6">Wilma</option>
+    </select>
+  </label>
+<hr>
+<legend class="vraag" >What type of worm were they?</legend>
+        <label class="rondjes"  for="rainworm-label">
+        <input id="rainworm-label" type="radio" name="worm-type" class="inline" value="1" checked /> Rain Worm</label>
+<label class="rondjes"  for="sunworm-label">
+        <input id="sunworm-label" type="radio" name="worm-type" class="inline" value="2" /> Sun Worm</label>
+        <label class="rondjes"  for="stormworm-label">
+        <input id="stormworm-label" type="radio" name="worm-type" class="inline" value="3" /> Storm Worm</label>
+<hr>
+<legend class="vraag" >What were their best traits?</legend>
+        <input id="tender" type="checkbox" name="traits" value="tender" checked> <label for="tender">Tender</label>
+        <input id="spicy" type="checkbox" name="traits" value="spicy"> <label for="spicy">Spicy</label>
+        <input id="fluid" type="checkbox" name="traits" value="fluid"> <label for="fluid">Fluid</label>
+        <input id="big" type="checkbox" name="traits" value="big"> <label for="bBig">Big</label>
+        <input id="bright" type="checkbox" name="traits" value="bright"> <label for="bright">Bright</label>
+<hr>
+<label class="vraag" for="adventure">Describe your most fun adventure together:
+          <textarea id="adventure" name="adventure" rows="3" cols="30" placeholder="It was a sweet Sunday morning when..."></textarea>
+        </label>
+
+        <button id="submit" type="submit" value="Submit" onclick="showAlert()"">Submit</button>
+        
+        <script>
+        function showAlert() {
+            alert("Thank you! Your response will be evaluated.");
+        }
+        </script>
+
+      </form>
+      </fieldset>
+    </body>

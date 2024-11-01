@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Free Scrum Master!</title>
+</head>
+<body>
+<!-- Title -->
+ <div class="kleur">
+    <h1><a href="index.html">Free Scrum Master</a></h1>
+<!-- Dropdown Menu -->
+ <div class="dropdown">
+    <p>Ask me about:</p>
+    <select id="topics">
+        <option value="" disabled selected>Pick a topic</option> <!-- Placeholder option -->
+        <option value="daily">Daily Stand-up</option>
+        <option value="refinement">Refinement</option>
+        <option value="retrospective">Retrospective</option>
+        <option value="sprintplanning">Sprint Planning</option>
+        <option value="sprintreview">Sprint Review</option>
+        <option value="agilemanifesto">Agile Manifesto</option>
+    </select>
+</div>
+<!-- Character and speech bubble -->
+    <div class="scrummasterwrap">
+        
+        <div class="scrummaster">
+            <img src="./images/gezichtje.png">
+        </div>
+    
+    <div class="speechwrapper">
+        <div class="speechbubble">
+            <p id="quote" class="quote">Go ahead, pick a topic.</p>
+        </div>
+        <div class="button1">
+            <button hidden>Gimme more on this topic!</button>
+        </div>
+    </div>
+
+    </div>
+
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
