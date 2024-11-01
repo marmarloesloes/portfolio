@@ -77,3 +77,22 @@ h1 {
 #result {
   margin-top: 15px;
 }
+
+@media (max-width: 1014px) {
+  .checker {
+    width: 300px;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  .question {
+    width: 200px;
+  };
+  #text-input {
+    width: 200px;
+  }
+  body {
+    background-size: 1000px;
+    background-position: top 40px left -650px;
+  }
+}
