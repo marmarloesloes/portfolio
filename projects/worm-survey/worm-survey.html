@@ -47,14 +47,14 @@
         <input id="stormworm-label" type="radio" name="worm-type" class="inline" value="3" /> Storm Worm</label>
 <hr>
 <legend class="vraag" >What were their best traits?</legend>
-        <input id="tender" type="checkbox" name="traits" value="tender" checked> <label for="tender">Tender</label>
-        <input id="spicy" type="checkbox" name="traits" value="spicy"> <label for="spicy">Spicy</label>
-        <input id="fluid" type="checkbox" name="traits" value="fluid"> <label for="fluid">Fluid</label>
-        <input id="big" type="checkbox" name="traits" value="big"> <label for="bBig">Big</label>
-        <input id="bright" type="checkbox" name="traits" value="bright"> <label for="bright">Bright</label>
+        <input class="vakjes" id="tender" type="checkbox" name="traits" value="tender" checked> <label for="tender">Tender</label>
+        <input class="vakjes" id="spicy" type="checkbox" name="traits" value="spicy"> <label for="spicy">Spicy</label>
+        <input class="vakjes" id="fluid" type="checkbox" name="traits" value="fluid"> <label for="fluid">Fluid</label>
+        <input class="vakjes" id="big" type="checkbox" name="traits" value="big"> <label for="big">Big</label>
+        <input class="vakjes" id="bright" type="checkbox" name="traits" value="bright"> <label for="bright">Bright</label>
 <hr>
-<label class="vraag" for="adventure">Describe your most fun adventure together:
-          <textarea id="adventure" name="adventure" rows="3" cols="30" placeholder="It was a sweet Sunday morning when..."></textarea>
+<label class="vraag" id="adventure-label" for="adventure">Describe your most fun adventure together:
+          <textarea id="adventure" name="adventure" rows="5" cols="30" placeholder="It was a sweet Sunday morning when..."></textarea>
         </label>
 
         <button id="submit" type="submit" value="Submit" onclick="showAlert()"">Submit</button>
