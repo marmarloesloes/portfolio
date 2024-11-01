@@ -107,6 +107,6 @@ textarea::placeholder, #dropdown {
 
 @media (max-width: 842px) {
 fieldset {
-  max-width: 100vw;
+  max-width: 100%;
 }
 } 
