@@ -230,12 +230,6 @@ h1 {
 
 @media (max-width: 842px) {
     * {
-        scroll-margin-top: 230px;
-    }
-}
-
-@media (max-width: 413px) {
-    * {
-        scroll-margin-top: 260px;
+        scroll-margin-top: 180px;
     }
 }
