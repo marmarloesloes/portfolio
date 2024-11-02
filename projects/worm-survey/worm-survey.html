@@ -25,7 +25,7 @@
   </label>
 <hr>
   <label class="vraag"  id="number-label"> How many worms have you owned?
-     <input id="number" type="number" placeholder="Pick a number" min="4" max="8" required></input>
+     <input id="number" type="number" placeholder="Pick a number" min="1" max="8" required></input>
   </label>
 <hr>
   <label class="vraag"  id="dropdown-label">Who was your favourite worm?
@@ -52,6 +52,8 @@
         <input class="vakjes" id="spicy" type="checkbox" name="traits" value="spicy"> <label for="spicy">Spicy</label>
         <input class="vakjes" id="fluid" type="checkbox" name="traits" value="fluid"> <label for="fluid">Fluid</label>
         <input class="vakjes" id="bright" type="checkbox" name="traits" value="bright"> <label for="bright">Bright</label>
+        <input class="vakjes" id="big" type="checkbox" name="traits" value="big"> <label for="big">Big</label>
+
 <hr>
 <label class="vraag" id="adventure-label" for="adventure">Describe your most fun adventure together:
           <textarea id="adventure" name="adventure" rows="5" cols="30" placeholder="It was a sweet Sunday morning when..."></textarea>
@@ -60,9 +62,14 @@
         <button id="submit" type="submit" value="Submit" onclick="showAlert()"">Submit</button>
         
         <script>
-        function showAlert() {
-            alert("Thank you! Your response will be evaluated.");
-        }
+          form.addEventListener('submit', (event) => {
+              if (!form.checkValidity()) {
+                  event.preventDefault(); // Prevents form submission if not valid
+                  return;
+              }
+              alert("Form submitted!"); // Only shows when the form is valid
+          });
+
         </script>
 
       </form>

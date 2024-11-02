@@ -110,12 +110,12 @@ textarea::placeholder, #dropdown {
 
 @media (max-width: 767px) {
   h1 {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     padding-top: 1rem;
   }
 
   #description {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-top: 0px;
   }
 
@@ -123,6 +123,7 @@ fieldset {
   max-width: 100%;
   margin-left: 0;
   margin-right: 0;
+  border-radius: 0;
 }
 
 form {
@@ -165,6 +166,11 @@ select {
 
 button {
   font-size: 1.3rem;
+  min-width: 70px;
+}
+
+#bright, #bright + label, #big, #big + label {
+  display: none;
 }
 
 }
